@@ -1,0 +1,27 @@
+.navigation {
+    background-color: yellowgreen;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.linkContainer {
+    color: white;
+    background-color: rebeccapurple;
+    width: 900px;
+
+
+    text-align: left;
+
+    word-spacing: 10px;
+
+}
+
+.wrapper {
+    margin-top: 5px;
+    background-color: blueviolet;
+    min-height: 500vh;
+
+}
