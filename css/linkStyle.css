@@ -3,25 +3,42 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: navajowhite;
     text-transform: uppercase;
 }
 
 .linkContainer {
+    margin-top: 5px;
     color: white;
     background-color: rebeccapurple;
     width: 900px;
-
-
     text-align: left;
-
     word-spacing: 10px;
 
 }
 
+
 .wrapper {
-    margin-top: 5px;
     background-color: blueviolet;
     min-height: 500vh;
+}
+
+.testContainer {
+    color: black;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid red;
+
+    overflow-y: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.testContainer > img {
+    height: 200px;
+    width: 200px;
 
 }
