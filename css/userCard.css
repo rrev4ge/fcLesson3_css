@@ -13,12 +13,12 @@ body {
     margin: 100px auto;
     padding: 20px;
 
-    box-shadow: 0px 0px 52px -12px rgba(0,0,0,0.75);
+    box-shadow: 0 0 52px -12px rgba(0,0,0,0.75);
 
 }
 
 .userCardImageContainer {
-    padding: 30px 0;
+    padding: 10px 0;
     box-sizing: border-box;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .userCardInfoContainer {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .userCardNameContainer {
@@ -41,18 +41,20 @@ body {
 
 .userCardNameContainer >p {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .userCardInfo {
     margin-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     font-size: 14px;
     font-weight: 300;
 }
 
 .userCardIcon {
     display: inline-block;
+
+
 }
 
 .userCardIcon > img {
@@ -69,7 +71,7 @@ body {
 
 .userCardButton {
 
-
+    margin-top: 20px;
 }
 
 .userCardButton > a {
@@ -78,13 +80,15 @@ body {
     background-color: rebeccapurple;
     width: 80%;
     border-radius: 10px;
-    margin: 0 auto;
     padding: 10px 20px;
 
     text-decoration: none;
     text-transform: capitalize;
-    color: lightgray;
+    color: white;
 
 }
 
-a:
+a:active {
+    color: lightgray;
+    box-shadow: 0 0 10px -3px rgba(0,0,0,0.75);
+}
